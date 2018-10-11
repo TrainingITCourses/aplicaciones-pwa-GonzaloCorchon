@@ -1,0 +1,14 @@
+
+hr { margin-top:20px; margin-bottom:20px;}
+
+.update {
+    background-color:#dff0d8;
+    padding:6px;
+    border:1px solid #666;
+    border-radius: 5px;
+}
+
+.text-right {
+    text-align: right;
+    margin-bottom: 16px;
+}

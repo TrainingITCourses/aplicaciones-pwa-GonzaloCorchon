@@ -1,0 +1,7 @@
+<div>
+  <div class="text-right"><button type="button" (click)="checkForUpdates()">Check for updates</button></div>
+  <p class="update" *ngIf="updateAvailable">There's a new version available, click <a href (click)="window.location.reload()">here</a> to download it</p>
+  <app-search (search)="onSearch($event)" [agencies]="agencies" [missions]="missions" [statuses]="statuses"></app-search>
+  <hr />
+  <app-launch-listing [launches]="launches" [searchStatus]="searchStatus"></app-launch-listing>
+</div>
